@@ -1,0 +1,167 @@
+body {
+   background-color: rgb(12,23,43);
+   color: rgb(114,221,227);
+   font-family: Calibri;
+}
+
+h1 {
+   font-size: 22px;
+   text-align: center;
+}
+
+p {
+   font-size: 14px;
+   margin: 10px 0;
+}
+
+#container {
+   width: 1280px;
+   margin: 20px auto;
+   padding: 20px 0;
+}
+
+#header {
+   width: 100%;
+   padding: 20px 0;
+   text-align: center;
+}
+
+#leftData, #centerData, #rightData {
+   float: left;
+   padding: 20px 0;
+}
+
+#leftData {
+   width: 400px;
+}
+
+#leftTitle {
+   width: 100%;
+   height: 125px;
+   margin-bottom: 20px;
+}
+
+#leftTitle img {
+   width: 136px;
+   height: 125px;
+   float: left;
+}
+
+#leftTitle h1 {
+   display: inline-block;
+   margin: 50px 0 0 20px;
+}
+
+#HZExportStatistics, #HZESChartContainer {
+   width: 100%;
+   height: 400px;
+}
+
+#HZExportStatistics {
+   margin-bottom: 50px;
+}
+
+#MainExportCommodities, #MECChartContainer {
+   width: 100%;
+   height: 300px;
+}
+
+#centerData {
+   width: 550px;
+}
+
+#centerData h1 {
+   text-align: center;
+}
+
+#HZMap, #HZMChartContainer {
+   width: 500px;
+   height: 500px;
+}
+
+#HZMap {
+   padding-top: 20px;
+   margin: 0 auto;
+}
+
+#percentageDiv {
+   width: 550px;
+   height: 300px;
+}
+
+#PDChartContainer {
+   width: 400px;
+   height: 300px;
+   margin: 20px auto;
+}
+
+#flags {
+   width: 400px;
+   height: 100px;
+   margin: 20px auto;
+}
+
+#flags .flag1, #flags .flag2, #flags .flag3, #flags .flag4, #flags .flag5 {
+   display: inline-block;
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 18px;
+/*   float: left;*/
+/*   margin-right: 12px;*/
+}
+
+#flags img {
+   width: 57px;
+   height: 56px;
+}
+
+#rightData {
+   width: 330px;
+}
+
+#monthlyImEx {
+  margin-top: 50px;
+}
+
+#monthlyImEx, #MIXChartContainer {
+   width: 330px;
+   height: 330px;
+}
+
+#mainImportCommodities {
+   margin-top: 35px;
+}
+
+#mainImportCommodities, #MICChartContainer {
+   width: 330px;
+   height: 330px;
+}
+
+#imExNature {
+   margin-top: 50px;
+}
+
+#IENContainer {
+   margin-top: 35px;
+}
+
+#IENContainer img {
+   width: 184px;
+   margin-top: -12px;
+   float: left;
+   margin-right: 10px;
+   cursor: pointer;
+}
+
+#IENContainer p {
+   padding-bottom: 5px;
+}
+
+#imExNature, #IENContainer {
+   width: 330px;
+   height: 330px;
+}
+
+#footer {
+   clear: both;
+}
