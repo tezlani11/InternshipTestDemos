@@ -1,0 +1,81 @@
+/*
+   Document: styles.css
+   Created: 23.10.2016
+   Finished: 25.10.2016
+   Author: Aladdin (Ibragimzhanov Babur)
+   E-mail: pnypho@foxmail.com
+*/
+
+body {
+   background-color: #11182B;
+   font: 14px 'Calibri';
+   color: rgb(32,205,205);
+}
+
+p {
+   margin: 10px 0;
+   text-align: center;
+}
+
+p span {
+   font-weight: bold;
+   border-bottom: 1px solid rgb(254,181,66);
+}
+
+h2 {
+	font-size:20px; float:left; padding-left:10px; min-width:100px; padding-top:20px; color: #19dbd2;
+	}
+h3 {
+	font-size:10px; float:left; padding-left:10px; padding-top:10px; color: #1e45fb;
+	}
+
+#wrapper {
+   width: 1320px;
+   margin: 0 auto;
+   padding: 0 10px;
+   /*outline: 1px solid red;*/
+}
+
+#header {
+   width: 100%;
+   /*outline: 1px solid green;*/
+}
+
+.everything {
+   margin-left:120px;
+}
+.left {
+   max-width: 30%; min-width: 30%; float:left; 
+}
+.right {
+    max-width: 40%; min-width: 30%; float:right;
+}
+.mid {
+   width: 100%; float:left;
+}
+.midcontainer {
+   max-width: 25%; float:left; min-width:25%; margin-left:70px; margin-left:10px; 
+}
+.small{max-width:90px;} 	.tiny{max-width:15px; padding-left: 5px;}
+
+.shadowfilter{-webkit-filter:drop-shadow(0px 0px 0px rgba(255,255,255,0.80)); 
+-webkit-transition:all 0.5s linear; -o-transition:all 0.5s linear; transition:all 0.5s linear;}
+.shadowfilter:hover{-webkit-filter:drop-shadow(0px 0px 0px rgba(0,231,255,0.80));}
+
+.pics:hover, .pics:active{opacity: 0.6; filter: alpha(opacity=60);}
+
+h1#mainTitle {
+   font-size: 38px; color: #11182B;
+   text-shadow: 0 0 0.20em rgb(12,205,205),0 0 0.15em rgb(80,245,205);
+   text-align: center; font-weight:bold;
+   padding-bottom:15px; padding-top:15px;
+  
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.hidden{
+    visibility: hidden;
+}

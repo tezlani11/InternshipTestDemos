@@ -1,0 +1,157 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <link type="text/css" rel="stylesheet" href="css/reset.css">
+   <link type="text/css" rel="stylesheet" href="css/styles.css">
+   <link type="text/css" rel="stylesheet" href="css/earth.css">
+   <link href="css/examples.css" rel="stylesheet" />
+   <!-- SCRIPTS -->
+   <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+   <script type="text/javascript" src="js/highcharts.js"></script>
+   <script type="text/javascript" src="js/highcharts-more.js"></script>
+   <script type="text/javascript" src="js/globalTheme.js"></script>
+   <!-- <script type="text/javascript" src="js/drilldown.src.js"></script> -->
+   <!-- <script type="text/javascript" src="js/data.js"></script> -->
+   <script type="text/javascript" src="js/funnel.js"></script>
+   <script type="text/javascript" src="js/map.js"></script>
+   <script type="text/javascript" src="js/zjMapData.js"></script>
+   <title>Home</title>
+  
+</head>
+<body>
+<div id="wrapper">
+
+
+   <div id="header">
+      <h1 id="mainTitle" style="text-align:center">浙江省对外贸易运行情况</h1>
+   </div>
+   
+   <div class="everything">
+   <div class="left">
+   <div id="fade">
+	<a href="../worldMap/map.html"><div id="earth" style="margin-left:50px"></div></a>
+    </div>
+    <h2 style="font-size:12px; text-align:center; margin-left:30px">浙江省对外贸易 服务贸易 对外经济合作</br>外商投资 数据统计分析</h2>
+         <div id="ZMChartContainer" style="width:250px; margin-top:60px; position:fixed;"></div>
+    <h2 class="hidden" style="font-size:12px; text-align:center; margin-left:30px; margin-top:-30px ">浙江省国内贸易 经济开发区 电子商务 数据统计分析</h2>
+    </div>
+    
+    <div class="midcontainer">
+    
+    <div class="mid">
+    	<div class="menu">
+        	<a href="../InternDemo1/index.html">
+            <img  style="float:left" src="img/logo1.png" alt="logo"  class="pics small shadowfilter">
+            </a><h2>对外贸易</h2><h3>进出口金额 19693215 万元</h3>
+            <img  style="float:left" src="img/up.png" alt="logo"  class="pics tiny">
+        </div>
+    </div>
+    
+    <div class="mid">
+    	<div class="menu">
+        	<a href="">
+            <img  style="float:left" src="img/logo2.png" alt="logo"  class="pics small">
+            </a><h2>对外经济合作</h2><h3>境外企业中方投资额 968509 万美元</h3>
+            <img  style="float:left" src="img/up.png" alt="logo"  class="pics tiny">
+        </div>
+    </div>
+    
+    <div class="mid">
+    	<div class="menu">
+        	<a href="#">
+            <img  style="float:left" src="img/logo3.png" alt="logo"  class="pics small">
+            </a><h2>外商投资</h2><h3>外商利用外资额 596362 万美元</h3>
+            <img  style="float:left" src="img/up.png" alt="logo"  class="pics tiny">
+        </div>
+    </div>
+    
+    <div class="mid">
+    	<div class="menu">
+        	<a href="#">
+            <img  style="float:left" src="img/logo4.png" alt="logo"  class="pics small">
+            </a><h2>服务贸易</h2><h3>国际服务贸易进出口总额 11942259 万元</h3>
+            <img  style="float:left" src="img/up.png" alt="logo"  class="pics tiny">
+        </div>
+    </div>
+    
+    <div class="mid">
+    	<div class="menu">
+        	<a href="../Project/index.html">
+            <img  style="float:left" src="img/logo5.png" alt="logo"  class="pics small">
+            </a><h2>国内贸易</h2><h3>全社会消费品零售总额 8358 亿元</h3>
+            <img  style="float:left" src="img/up.png" alt="logo"  class="pics tiny">
+        </div>
+    </div>
+    
+    <div class="mid">
+    	<div class="menu">
+        	<a href="#">
+            <img  style="float:left" src="img/logo6.png" alt="logo"  class="pics small">
+            </a><h2>电子商务</h2><h3>网络零售总额 3122亿元</h3>
+            <img  style="float:left" src="img/up.png" alt="logo"  class="pics tiny">
+        </div>
+    </div>
+    
+     <div class="mid">
+    	<div class="menu">
+        	<a href="#">
+            <img  style="float:left" src="img/logo7.png" alt="logo"  class="pics small">
+            </a><h2>经济开发区</h2><h3>经济指标 304190 万美元</h3>
+            <img  style="float:left" src="img/up.png" alt="logo"  class="pics tiny">
+        </div>
+    </div>
+    
+    </div>
+    
+    	<div class="right" style="margin-top:-40px">
+    	<div class="hidden" >
+				<button id="example-1"  class="btn btn-primary ForMargin"></button>		
+       </div>
+                    
+			<div class="demo-container">
+            <div><h2 style="float:left; font-size:12px;">浙江省国民经济生产总值 gdp 一季度 为9356.2亿元 同比增长7.2%</h2></div>
+            <div><h3 style="float:left">国民生产总值第一，二，三产业占比情况</h3></div></br></br>
+			<div id="placeholder" style="float:right" class="demo-placeholder"></div>
+            <div><h2 style="float:left; font-size:12px; margin-top:-30px">全国进出口本年累计91613亿元，同比递减-3.2%;浙江省进出口本年累计8338亿元，同比递减1.5%;全国进出口本年累计91613亿元，同比递减-3.2%;浙江省进出口本年累计8338亿元，同比递减1.5%;</h2></div>
+		</div>
+        
+        				<div class="demo-container2">
+                         	<div id="morris-area-chart" style="height:150px"></div>
+                            <h2 style="font-size:12px;  margin-top:-20px; text-align:center;">全国主要省 市进出口统计</h2>
+                        </div>
+              
+                        <div class="demo-container2" style="margin-top:10px">
+                            <div id="morris-bar-chart"  style="height:150px"></div>
+                         	<h2 style="font-size:12px; margin-top:-40px; text-align:center;">各省进出口同比增减串</h2>                            
+                        </div>
+                   
+                        <div class="hidden">
+                            <div id="morris-line-chart"></div>
+                        </div>
+                 
+                        <div class="hidden">
+                            <div id="morris-donut-chart"></div>
+                		</div>
+        
+    </div>
+    
+    </div>
+   
+    
+</div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <!-- END GLOBAL SCRIPTS -->
+
+    <!-- PAGE LEVEL SCRIPTS -->
+    <script  src="js/jquery.flot.js"></script>
+     <script src="js/jquery.flot.resize.js"></script>
+	<script  src="js/jquery.flot.pie.js"></script>
+    <script src="js/pie_chart.js"></script>
+    <script src="js/raphael-2.1.0.min.js"></script>	
+    <script src="js/morris.js"></script>
+    <script src="js/morris-demo.js"></script>
+</body>
+</html>

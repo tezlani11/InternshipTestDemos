@@ -1,0 +1,16 @@
+.demo-container {
+	box-sizing: border-box;
+	max-width: 50%;min-width: 50%;
+	height: 250px;
+}
+.demo-container2 {
+	box-sizing: border-box;
+	max-width: 50%;min-width: 50%;
+	height: 150px;
+}
+
+.demo-placeholder {
+	width: 50%;
+	height: 50%;
+	font-size: 12px;
+}

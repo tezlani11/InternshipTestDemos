@@ -1,0 +1,160 @@
+/*
+   Document: chart.css
+   Created: 23.10.2016
+   Finished: 25.10.2016
+   Author: Aladdin (Ibragimzhanov Babur)
+   E-mail: pnypho@foxmail.com
+*/
+
+#monthlyStatistics {
+   width: 770px;
+   height: 450px;
+   /*outline: 1px solid orange;*/
+   float: left;
+}
+
+   #MSChartContainer {
+      width: 100%;
+      height: 100%;
+   }
+
+#zhejiangMap {
+   width: 650px;
+   height: 450px;
+   margin-left: 770px;
+   /*outline: 1px solid purple;*/
+}
+
+   #ZMChartContainer {
+      width: 100%;
+      height: 100%;
+   }
+
+#salesLocation {
+   width: 400px;
+   height: 400px;
+   /*outline: 1px solid purple;*/
+   float: left;
+}
+
+   #SLChartContainer {
+      width: 100%;
+      height: 100%;
+   }
+
+#classValue {
+   width: 1020px;
+   height: 500px;
+   margin-left: 400px;
+   /*outline: 1px solid orange;*/
+}
+
+   #contLeft {
+      width: 450px;
+      height: 450px;
+      float: left;
+      /*outline: 1px solid grey;*/
+   }
+
+      #CVChartContainer {
+         width: 100%;
+         height: 100%;
+      }
+
+         #carsCol {
+            width: 224px;
+            margin: 0 auto;
+            /*outline: 1px dashed aqua;*/
+         }
+
+            #carsCol img {
+               width: 68px;
+               height: 30px;
+               margin-right: 1px;
+            }
+
+         #cansCol {
+            width: 275px;
+            height: 45px;
+            margin: 0 auto;
+            /*outline: 1px dashed red;*/
+         }
+
+            #cansCol img {
+               width: 33px;
+               height: 43px;
+               margin-right: 10px;
+            }
+
+         #foodsCol {
+            width: 241px;
+            height: 55px;
+            margin: 0 auto;
+            /*outline: 1px solid yellow;*/
+         }
+
+            #foodsCol img {
+               width: 67px;
+               height: 52px;
+               margin-right: 10px;
+            }
+
+   #contRight {
+      width: 570px;
+      height: 450px;
+      margin-left: 450px;
+      /*outline: 1px solid green;*/
+   }
+
+      #CKChartContainer {
+         width: 100%;
+         height: 100%;
+      }
+
+#stackingByCity {
+   width: 650px;
+   height: 450px;
+   float: left;
+   /*outline: 1px solid green;*/
+}
+
+   #SBCChartContainer {
+      width: 100%;
+      height: 100%;
+   }
+
+#prodMaterials {
+   width: 700px;
+   height: 450px;
+   margin-left: 720px;
+   /*outline: 1px solid grey;*/
+}
+
+   #PMChartContainer {
+      width: 100%;
+      height: 100%;
+   }
+
+#enterBusiness {
+   width: 550px;
+   height: 500px;
+   float: left;
+   /*outline: 1px solid purple;*/
+}
+
+   #EBChartContainer {
+      width: 100%;
+      height: 100%;
+   }
+
+#dailyNec {
+   width: 500px;
+   height: 400px;
+   margin-left: 750px;
+   /*outline: 1px dashed black;*/
+}
+
+   #DNChartContainer {
+      width: 100%;
+      height: 100%;
+   }
